@@ -1,0 +1,37 @@
+body {
+    font-family: monospace;
+    transition: background-image 0.5s ease-in-out; /* Add smooth transition */
+}
+
+body.ini {
+    background-image: url("https://assets-global.website-files.com/646218c67da47160c64a84d5/64fae948b17eec100a7f557b_92.png");
+}
+
+body.cl {
+    background-image: url("https://assets-global.website-files.com/646218c67da47160c64a84d5/64634bca794219e8d0f1b91c_85.png");
+}
+#popButton {
+    border-radius: 10cm;
+    background-color: #4CAF50; /* Green color */
+    border: none;
+    color: rgb(148, 255, 189);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Define transition for animation */
+  }
+
+  #popButton:hover {
+    background-color: #45A049; /* Darker green on hover */
+  }
+
+  #popButton.hidden {
+    opacity: 0; /* Hide the button with opacity */
+    transform: scale(0); /* Shrink the button to 0 size */
+  }
+
+ 
